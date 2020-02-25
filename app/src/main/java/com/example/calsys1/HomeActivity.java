@@ -45,10 +45,10 @@ public class HomeActivity extends AppCompatActivity {
 
 
         if (mBluetooth == null){
-            tv1.setText("Bluetooth is not available");
+            tv1.setText("BLUETOOTH IS NOT AVAILABLE");
         }
         else{
-            tv1.setText("Bluetooth is available");
+            tv1.setText("BLUETOOTH IS AVAILABLE");
         }
 
         mOn.setOnClickListener(new View.OnClickListener() {
