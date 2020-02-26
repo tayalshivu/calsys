@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         imageView=findViewById(R.id.imageView3);
 
-        imageView.setImageResource(R.drawable.bluetooth);
+        //imageView.setImageResource(R.drawable.bluetooth);
 
         new Handler().postDelayed(new Runnable() {
             @Override
